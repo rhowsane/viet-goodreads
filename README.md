@@ -3,10 +3,10 @@
 Welcome to the viet-goodreads project! This project aims to train a model that predicts a book's rating using the provided dataset. The project includes exploratory analysis of the data, feature engineering and selection, model training and evaluation, and deployment. 
 
 ## Team Members
-- Rhosane Santos
-- Kim Duy Nguyen
-- Thu Thao Pham
 - Anh Bui
+- Kim Duy Nguyen
+- Rhosane Santos
+- Thu Thao Pham
 
 ## Getting Started
 
