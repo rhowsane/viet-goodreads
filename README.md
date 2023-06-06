@@ -43,5 +43,6 @@ viet-goodreads/
 
 (To be modifed)
 
-Note: Make sure to install the necessary dependencies mentioned in the notebooks before running them.
+Note: Make sure to install the necessary dependencies mentioned in the notebooks before running them.  
 
+If you wish, create your own development branch to keep record of your work as dev-yourname.
