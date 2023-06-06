@@ -26,6 +26,7 @@ git clone https://github.com/rhowsane/viet-goodreads.git
 
 The project repository has the following structure:
 
+```python
 viet-goodreads/
 ├── Dataset/
 │   └── books.csv (The data is now cleaned from the original project's file)
@@ -33,7 +34,7 @@ viet-goodreads/
 ├── test.ipynb (To be modified)
 │
 └── README.md
-
+```
 
 - The `Dataset/` directory contains the dataset file `books.csv`.
 - The `README.md` file provides an overview of the project and instructions for cloning the repository.
