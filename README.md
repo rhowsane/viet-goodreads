@@ -22,6 +22,48 @@ git clone https://github.com/rhowsane/viet-goodreads.git
 
 4. The project will be cloned to your local machine.
 
+## Make your own branch to work on
+
+1. Open your terminal or command prompt.
+2. Change the current working directory to the location where your project is.
+3. Run the following command:
+
+```
+git checkout -b dev-yourname
+```
+4. You are now working on your own branch. To switch back to the main branch, run the following command:
+
+```
+git checkout main
+```
+
+5. To switch back to your own branch, run the following command:
+
+```
+git checkout dev-yourname
+```
+
+6. To push your work to your own branch, run the following command:
+
+```
+git add .
+git commit -m "your commit message"
+git push origin dev-yourname
+```
+
+7. To merge your work to the main branch, run the following command: (MAKE SURE TO ASK FOR PERMISSION FIRST)
+
+```
+git checkout main
+git merge dev-yourname
+```
+
+8. To delete your own branch, run the following command:
+
+```
+git branch -d dev-yourname
+```
+
 ## Project Structure
 
 The project repository has the following structure:
