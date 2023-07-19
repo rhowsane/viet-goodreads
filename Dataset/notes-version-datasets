@@ -1,0 +1,2 @@
+books_0.1.csv: original dataset
+books_0.2.csv: removal of "" when opened with the text editor
