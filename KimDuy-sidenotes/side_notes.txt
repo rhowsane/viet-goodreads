@@ -1,4 +1,0 @@
-- Multiple data transformation done:
-1. changed all en-us into eng (it causes problems when manipulating data)
-2. changed all " to ' (same problem)
-3. removed the ", " in some of the titles, it causes the csv format to become inconsistent test test
