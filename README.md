@@ -78,7 +78,7 @@ viet-goodreads/
 │   └── main.ipynb (This is the main notebook, including the data exploration, analysis, machine learning, etc. parts)
 |
 └── README.md
-└── copy_csv.py (this file is used to copy the raw data set CSV to the CSV that we will work on, so that we will always have the original csv file,    without accidentally modify it)
+└── copy_csv.py (to copy the raw data set CSV to the CSV that we will work on, so that we will always have the original csv file)
 
 ```
 
