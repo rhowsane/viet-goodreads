@@ -88,3 +88,9 @@ viet-goodreads/
 ## Usage
 
 Note: Make sure to install the necessary dependencies mentioned in the requirements.txt file before running them.  
+
+To install the dependencies, run the following command:
+
+```python
+pip install -r requirements.txt
+```
