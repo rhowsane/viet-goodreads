@@ -73,18 +73,24 @@ viet-goodreads/
 ├── Dataset/
 │   └── books.csv (The data is now cleaned from the original project's file)
 │
-├── test.ipynb (To be modified)
-│
+├── Notebook/
+│   └── clean_csv.ipynb (This notebook is to run only once to clean part of the CSV to make the file readable)
+│   └── main.ipynb (This is the main notebook, including the data exploration, analysis, machine learning, etc. parts)
+|
 └── README.md
+└── copy_csv.py (to copy the raw data set CSV to the CSV that we will work on, so that we will always have the original csv file)
+
 ```
 
-- The `Dataset/` directory contains the dataset file `books.csv`.
+- The `Dataset/` directory contains the dataset file `books_raw.csv` that contains the original dataset. When you execute the copy_csv.py, a `books.csv` will be created as a clone of the `books_raw.csv`
 - The `README.md` file provides an overview of the project and instructions for cloning the repository.
 
 ## Usage
 
-(To be modifed)
+Note: Make sure to install the necessary dependencies mentioned in the requirements.txt file before running them.  
 
-Note: Make sure to install the necessary dependencies mentioned in the notebooks before running them.  
+To install the dependencies, run the following command:
 
-If you wish, create your own development branch to keep record of your work as dev-yourname.
+```python
+pip install -r requirements.txt
+```
