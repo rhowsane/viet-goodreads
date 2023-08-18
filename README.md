@@ -94,3 +94,12 @@ To install the dependencies, run the following command:
 ```python
 pip install -r requirements.txt
 ```
+
+IMPORTANT:
+
+If you decide to rerun the project from start to finish, here are the steps:
+
+1. Delete the Dataset/books.csv file
+2. Run the copy_csv.py file, this will create a new Dataset/books.csv file (copy of the original Dataset/books_raw.csv file)
+3. Run the clean_csv.ipynb file, this will clean the Dataset/books.csv file (only need to run once, don't run it again)
+4. Run the main.ipynb file, this will run the whole project from start to finish
