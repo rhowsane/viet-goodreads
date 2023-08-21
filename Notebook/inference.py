@@ -17,7 +17,7 @@ def inference():
 
     test_features = test_df.drop(columns=['average_rating'])
 
-    model = load(model_rf)
+    model = joblib.load(model_rf)
     predictions = model.predict(test_features)
 
     print(f"Random forest metrics:")
