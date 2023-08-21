@@ -8,12 +8,12 @@ from sklearn.metrics import accuracy_score, mean_squared_error, r2_score, mean_a
 
 def inference():
 
-    test = "../Dataset/df_test.csv"
+    test = "test_df.csv"
     model_rf = "random_forest.joblib"
 
     test_df = pd.read_csv(test)
 
-    print(f"Dimensions of the test dataframe: {df_test.shape}")
+    print(f"Dimensions of the test dataframe: {test_df.shape}")
 
     test_features = test_df.drop(columns=['average_rating'])
 
