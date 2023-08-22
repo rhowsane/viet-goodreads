@@ -12,10 +12,12 @@ def inference():
     model_rf = "random_forest.joblib"
 
     test_df = pd.read_csv(test)
+    test_df.set_index("Unnamed: 0", inplace= True)
 
     print(f"Dimensions of the test dataframe: {test_df.shape}")
 
     test_features = test_df.drop(columns=['average_rating'])
+    print(f"Test features names: {test_features.columns.tolist()}")
 
     model = joblib.load(model_rf)
     predictions = model.predict(test_features)
