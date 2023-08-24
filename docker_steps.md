@@ -23,3 +23,12 @@ To tag the container:
 Push the docker image:
  
 6. sudo docker tag viet-goodreads name_of_account/viet-goodreads
+
+# To use the results from Docker
+
+docker pull rhowsane/viet-goodreads  
+
+For the command below, the path on the terminal should be the same as where the test_df.csv is.
+You can obtain it through the github page of our project. You'll obtain the names of the features and the metrics of the model we used.
+
+docker run -v ./test_df.csv:/home/jovyan/test_df.csv viet-goodreads python3 inference.py
