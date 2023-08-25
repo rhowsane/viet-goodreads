@@ -24,7 +24,7 @@ Push the docker image:
  
 6. sudo docker tag viet-goodreads name_of_account/viet-goodreads
 
-# To use the results from Docker
+# In order to run the container
 
 docker pull rhowsane/viet-goodreads  
 
